@@ -420,7 +420,7 @@ faqs:
       other: "Ver todos os %{count} artigos"
     labels:
       edit: "Editar este artigo"
-      last_updated: "Última atualização"View all (15 more) articles
+      last_updated: "Última atualização" # View all (15 more) articles
 heartbeat_mailer:
   questions: "Dúvidas?"
 invitation_mailer:
