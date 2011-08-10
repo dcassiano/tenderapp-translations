@@ -1,0 +1,996 @@
+pt_BR:
+  home: "Início"
+  welcome: "Bem-vindo"
+  discussion_is_private: "Essa discussão é privada"
+  # conjunctions and time
+  for: "para"
+  or: "ou"
+  by: "por"
+  all: "todos"
+  minutes: "minutos"
+  minute: "minuto"
+  hours: "horas"
+  hour: "hora"
+  days: "dias"
+  day: "dia"
+  #----  
+  goto_profile: "Ir para o Perfil"
+  find_discussions: "Encontrar Discussões"
+  #----
+  # discussion states
+  open: 'aberto'
+  new:  'novo'
+  ticketed: 'ticket criado'
+  resolved: 'resolvido'
+  pending: 'pendente'
+  deleted: 'apagado'
+  spam: 'spam'
+  reopen: "re-aberto"
+  close: "fechar"
+  closed: "fechado"
+  newest: "Recente"
+  oldest: "Antigo"
+  watchers: "Observadores"
+  queued_date: "Data em Fila"
+  mark_as_spam: "Marcar como spam"
+  move_to_trash: "Mover para lixeira"
+  add_to_queue: "Adicionar a fila"
+  remove_from_queue: "Remover da fila"
+  cancel: "Cancelar"
+  #----
+  btn_create: "Criar"
+  btn_delete: "Apagar"
+  btn_cancel: "Cancelar"
+  btn_search: "Buscar"
+  btn_submit: "Enviar"
+  #----
+  discussion: "Discussão"
+  #----
+    
+  labels:
+    name: "Nome"
+    email: "Email"
+    email_address: "Endereço de Email"
+    password: "Senha"
+    password_confirm: "Senha (Confirmação)"
+    category: "Categoria"
+    admin_functions: "Funções de Admin"
+    mark_as_ham: "Marcar como spam"
+    restore: "Restaurar"
+    remove: "Remover"
+    edit: "Editar"
+    split: "Separar"
+    section: "Seção"
+    support_staff: "Equipe de Suporte"
+    replies: "Respostas"
+    latest_post: "Último Post"
+    title: "Título"
+    state: "Estado"
+    replies: "Respostas"
+    unverified: " (não verificado)" # users_helper.rb inline identifier for unverified users
+    verify_human: "Verificação Humana"
+    attach_file: "Anexar Arquivo"
+    custom_title: "Título Customizado"
+    subject: "Título"
+  captcha_description: "Se você ainda não tem uma conta, nós precisamos confirmar que você é um humano e não um programa tentando postar um spam."
+  private: "privado"
+  public: "público"
+  
+  private_category_description: "Esta é uma categoria privada; discussões nunca serão públicas."
+  private_discussion_description: "Esta é uma discussão privada, não deixe que outros a vejam."
+  add_watchers: "Adicione observadores para essa discussão"
+  private_discussion: "Discussão privada"
+  start_a_discussion: "Inicie uma discussão"
+  start_a_discussion_in: "Inicie uma discussão em %{category}"
+  # Last update: 15 Jul 2010 by <user>
+  by: 'por'
+  # via email
+  via: "via %{source}"
+  found_a_bug: "Encontrou um bug no Tender?"
+  layouts:
+    footer:
+      copyright: "Tender&trade; é desenvolvido por %{entp_site}."
+      questions: "Alguma dúvida?"
+      start_discussion: "Iniciar uma discussão no Tender &rarr;"
+    footerbox:
+      title_discussions: "Discussões Recentes"
+      title_faqs: "Artigos Recentes"
+      empty_discussions: "Sem discussões ainda!"
+    superheader:
+      logged_in_as: "Logado como %{user}"
+      logged_in_as_from: "Logado como %{user} de %{site}"
+      logout: "Sair"
+      login: "%{btn_log_in} para %{site}"
+      btn_log_in: "Entrar"
+      login_or_create_profile: "%{btn_log_in} ou %{create_profile}"
+      create_profile: "Criar um perfil"
+      support_home: "Início Suporte"
+      public_discussion: "Discussão Pública"
+      admin: "Admin"
+      go_to_sso_site: "Ir para %{site}"
+    application_private:
+      description: "Esta página é restrita. Você deve autenticar para continuar. Se você não tiver uma conta, peça ao administrador do site."
+  assets:
+    title: "Envio de itens"
+    processing_asset: "Processando item"
+    delete_asset_permanently: "Remover este item permanentemente?"
+  changelog:
+    discovery_link_title: "Mudanças no Tender Support"
+    subscribe_to_feed: "Mudanças no Tender Support"
+    title: "Novidades no Tender"
+    description: "Mudanças sendo feitas pelos desenvolvedores"
+    notes: "Mudanças na interface HTML(partes personalizaveis) serão marcadas abaixo em vermelho."
+    html_change: "Mudança no HTML"
+  comments:
+    split: "Este comentário foi extraído da discussão:"
+    split_this_comment: "Extrair este comentário para uma nova discussão em nome de %{author}"
+    was_split: "Este comentário foi extraído para uma nova discussão"
+    was_split_private: "Este comentário foi extraído para uma nova discussão privada"
+    attached_files: "Anexos"
+    posted_by: "Publicado por %{author} em %{date}"
+    recent_comments: "Exibindo a página mais recente de comentários."
+    view_the_first_page: "Ver a primeira página"
+    reopened_message: "%{author} %{reopened} esta discussão em %{date}"
+    reopened: "reabriu"
+    message_internal_system: "Esta é uma %{system_message}, visível apenas para administradores"
+    message_internal_reply:  "Esta é uma %{internal_reply}, visível apenas para administradores"
+    system_message: "mensagem do sistema"
+    internal_reply: "resposta interna"
+    resolved_on_date: "%{author} %{closed} esta discussão em %{date}."
+    resolved_by_user: "%{author} %{closed} esta discussão."
+    label_older_comments: Comentários mais antigos
+    label_newer_comments: Comentários mais recentes
+    delete:
+      confirm: "Tem certeza que deseja remover este comentário de %{author}?"
+      btn_delete_permanently: "Remover permanentemente"
+      title: "Remover este comentário"
+    index:
+      recent_comments_feed: "Comentários recentes"
+      recent_comments_feed_auth: "Comentários recentes (autenticado)"
+    model:
+      cannot_update_message: "Não é possível atualizar uma discussão encerrada a menos que você esteja no time de suporte ou seja o autor dela."
+      cannot_internal_reply_message: "Não é possível comentar internamente a menos que você esteja no time de suporte."
+    new:
+      comments_lock: 
+        one: "1 comentário desde que você começou a responder:"
+        other: "%{count} comentários desde que você começou a responder:"
+    restore:
+      title: "Editar este comentário"
+      labels:
+        posted: "Publicado por by: %{author}"
+      btn_update: "Editar comentário"
+    show:
+      btn_edit_comment: "Editar comentário"
+      labels:   
+        edit_comment: "Editar comentário"
+        posted: "Publicado"
+        by: "por %{author} em %{date}"
+        via: "Via"
+        email_headers: "Cabeçalhos do email"
+        browser: "Browser"
+      use_plain_text: "Usar texto sem formatação (não utilize marcadores)"
+  dashboard:
+    home:
+      start_a_discussion: "Iniciar uma discussão"
+      browse_discussions: "Navegar em discussões"
+      representatives_here: "Representantes da empresa para esclarecer suas dúvidas"
+      your_open_issues: "Questões em aberto"
+      header_private: "Restrita"
+  discussions:
+    # Multipass / discussion key-value information
+    private_information: "Informação restrita"
+    # Search results
+    started_by: "Discussão iniciada por %{author} em %{date}"
+    comment_on: "Comentário #%{number} de %{author} em %{date}"
+    # Reply/Comment form
+    reopen_discussion: "Reabrir e responder essa  discussão %{resolved} ou %{start_a_new_discussion}"
+    start_a_new_discussion: "iniciar uma nova discussão &rarr;"
+    reply_to_discussion: "Responder essa discussão"
+    internal_reply: "Resposta interna"
+    label_show_internal: "Mostrar essa resposta somente para funcionários"
+    logged_in_as: "Você foi logado como %{author}."
+    login_as_another_user: "Autenticar-se como outro usuário?"
+    # job
+    assigned:
+      user_to_user: "%{user} enviou %{this_discussion} para %{assigned_user} sob ticket %{ticket_id}."
+      user_to_ticket: "%{user} cadastrou %{this_discussion} no ticket %{ticket_id}."
+      to_ticket: "Cadastrou %{this_discussion} no ticket %{ticket_id}."
+      to_user: "Enviou %{this_discussion} para %{assigned_user} sob ticket %{ticket_id}."
+      this_discussion: "esta discussão"
+
+    # actions:
+    new:
+      spawn_title: "Iniciar uma discussão a partir de um comentário"    
+      spawn_description: "Criar uma discussão a partir do comentário de %{author} na discussão %{discussion}. Você deve definir um assunto. A nova discussão será criada no nome do usuário."
+      start_title: "Iniciar uma discussão"
+      start_description: "Iniciar uma discussão para que as pessoas em %{site} te ajudem."
+      private_category: "Todas as discussões serão %{private}."
+      public_category: "Você pode tornar as suas discussões %{private} ou %{public} dependendo de quem você deseja que as veja."
+    widget:
+    model:
+      resolved_message: "Esta discussão foi resolvida."
+      reopened_message: "Esta discussão foi reaberta."  
+      private_message: "Esta discussão agora é restrita."
+      public_message: "Esta discussão agora é pública."
+    comment_help: "%{formatting_help} ou %{preview}"
+    formatting_help: "Ajuda com formatação"
+    btn_comment: "Comentar"
+    btn_comment_and_resolve: "Comentar &amp; Fechar"
+    ticket_selector:
+      title: "Título"
+      no_search_terms: "Nenhum termo de busca"
+      search_for_a_ticket: "Buscar um ticket..."
+      associate_a_ticket: "Associar a um ticket do Lighthouse"
+      create_a_new_ticket: "Criar um ticket"
+      create_a_new_ticket_instructions: "Preencher este formulário irá criar um ticket no Lighthouse e anexar a esta discussão."
+      add_tags_to_the_ticket: "Adicionar tags ao ticket (separado por espaços)"
+      btn_create_ticket: "Criar Ticket"
+    thanks:
+      description: "Obrigado por iniciar uma discussão. Enviaremos atualizações por email. Você também pode acompanhar a discussão em %{url}"
+      unclaimed_discussion: "Sua discussão foi publicada com um email que já existe no Tender."
+      unclaimed_link: "Você deve efetuar <a href='%{url}'>login para ser o responsável por estas discussões</a>."
+    show_unclaimed:
+      title: " Esta discussão não possui responsável!"
+      description: "Discussões sem responsável são criadas quando usuários com conta não efetuam login antes de publicar uma discussão."
+      read_more: "Leia mais.."
+      instructions: "Você pode recuperar esta discussão com este perfil de usuário"
+      btn_reclaim: "Recuperar"
+      btn_claim: "Tornar-se responsável"
+      or: "ou"
+      btn_cancel: "Cancelar"
+      claim_this: "Você pode tornar %{user} responsável por esta discussão"
+      warning: "Você não poderá responder esta discussão até que ela tenha algum responsável."
+    show_private:
+      title: "Esta discussão é restrita ou foi removida."
+      login: " Autentique-se com um usuário válido:"
+    show_missing_token:
+      description: "Se você é %{author}, informe seu endereço de email para receber a URL desta discussão."
+      the_author: "o autor"
+      email_address: "Endereço de email"
+      btn_send_email: "Enviar email"
+    show_hidden:
+      title_spam: " Esta discussão foi marcada como spam"
+      title_deleted: "Esta discussão foi removida"
+      description: "Se você quiser, pode restaurar esta discussão iniciada por %{author}"
+      btn_restore: "Restaurar"
+    show:
+      home: "Início"
+      edit: "Editar"
+      remove: "Remover"
+      change_category: "Mudar Categoria"
+      acknowledge: "Aceitar atualização"
+      add_to_queue: "Enviar para fila"
+      add_to_queue_title: "Adicionar ou remover esta discussão de filas"
+      remove_from_this_queue_title: "Remover esta discussão desta fila"
+      add_to_this_queue_title: "Adicionar esta discussão a esta fila"
+      stick_this_queue: "Furar esta fila"
+      processing_message: "Estamos processando esta discussão. Pode demorar cerca de um minuto."
+      processing_refresh_message: "(você pode tentar recarregar a página)"
+      resolved_by_a_faq: "Esta discussão foi resolvida! Veja este artigo para mais informações:"
+      see_more: "Veja mais.."
+      suggested_faqs: 
+        one:   "Exibir o artigo sugerido para este post."
+        other: "Exibir os %{count} artigo sugerido para este post."
+      show_spam_comments:
+        one: "Exibir 1 comentário spam"
+        other: "Exibir %{count} comentários spam"
+      show_deleted_comments:
+        one: " Exibir 1 comentário removido"
+        other: "Exibir %{count} comentarios removidos"
+      show_active_comments: "Exibir apenas comentários ativos"
+      comments_are_closed: "Esta discussão está fechada para novos comentários."
+      start_a_new_discussion: "Você pode começar uma nova discussão."
+      attach_a_ticket: "Anexar um ticket do Lighthouse"
+    # sidebar:
+      state_new_issue: "Novo problema"
+      state_started: "Conversa Iniciada"
+      state_involved: "Os desenvolvedores estão envolvidos"
+      state_resolved: "A discussão está encerrada"
+      new_issue_description: "O suporte de %{site} ainda não examinou esta discussão."
+      started_description: "A equipe de %{site} iniciou uma conversa para resolver esta discussão."
+      involved_description: "Os desenvolvedores de %{site} estão envolvidos e trabalhando na discussão"
+      resolved_description: "Não é necessária mais nenhuma ação de %{site} ou do autor da discussão."
+      private_permissions: "Permissões restritas"
+      public_permissions: "Permissões públicas"
+      re_open_discussion: "Reabrir a discussão"
+      resolve_discussion: "Resolver a discussão"
+      discussion_is_private: "Esta discussão é %{private}. "
+      discussion_is_public: "Esta discussão é %{public}. Todos podem ver e responder."
+      private_to_you: "Somente você e o suporte de %{site} podem ver e responder."
+      private_to_company: "Somente o suporte de %{site} e membros de %{company_name} podem ver e responder."
+      btn_make_public: "Tornar público"
+      btn_make_private: "Tornar restrito"
+      # RSS links:
+      comments_feed_auth: "Feed de comentários (autenticado)"
+      comments_feed: "Feed de comentários"
+      all_discussions_feed_auth: "Todas as discussões (autenticado)"
+      all_discussions_feed: "Todas as discussões"
+      recent_discussions_auth: "Discussões recentes (autenticado)"
+      recent_discussions: "Discussões recentes"
+    send_token:
+      description: "O seu token específico para esta discussão será enviado para: "
+      enter_your_email: "Se você é %{author}, informe seu endereço de email para receber a URL específica desta discussão."
+      incorrect_email: "Endereço de email incorreto para esta discussão."
+      email_address: "Endereço de email"
+      btn_send_email: "Enviar Email"
+    index:
+      title: "%{category} / Discussion Area"
+      private_category: "Esta categoria é restrita &mdash; novas discussões são visíveis apenas para o suporte e para o autor."
+      new_discussion: "Nova discussão"
+      empty_discussions: "Nenhuma discussão."
+      # [Private]: I'm having a problem with ..
+      label_private: "Restrito"
+      # Started by [Jim] via [email]
+      started_by: "Iniciado por %{author} via %{via}"
+      by: "por %{author}"
+      discussions_feed_auth: "Discussões (autenticado)"
+      discussions_feed: "Discussões"
+      forwarding_address: "Encaminhe seus emails de suporte %{email} para que eles apareçam nesta categoria como uma discussão restrita."
+      # Forward your support emails [here] to have them..
+      email_here: "aqui" 
+    faq_selector:
+      title: "Selecione um artigo da biblioteca"
+      search_articles: "Buscar artigo..."
+    delete:
+      title: "Remover esta discussão"
+      confirm: "Tem certeza que deseja excluir esta discussão iniciada por %{author}?"
+      btn_delete: "Excluir"
+      btn_spam: "Marcar como Spam"
+      or_cancel: "ou %{btn_cancel}"
+      discussion_status: "Status da discussão:"
+      discussion_state: "Esta discussão está %{state}."
+      permissions: "Permissões"
+      discussion_is_public: "Esta discussão é %{public}. Todos podem ver e responder."
+      public: "pública"
+    change_category:
+      title: "Trocar Categoria"
+      description: "Após trocar a categoria da discussão a URL anterior redirecionará para a nova categoria."
+      message: "Discussão movida de %{old_category} para %{new_category}"
+      move_to_category: "Mover para Categoria"
+      btn_move_discussion: "Mover Discussão"
+    categories:
+      title: "Discussão pública"
+      description: "Bem-vindo a área de discussão pública. Você pode ler e responder a discussões publicadas por outras pessoas ou criar sua própria discussão na categoria de sua escolha."
+      empty_list: "Sem novos posts"
+    watcher_widget:
+      people_watching:
+        one: "pessoa acompanhando"
+        other: "pessoas acompanhando"
+      view_sent_emails: "Ver historico de 'emails enviados'"
+      label_you: "Você"
+      label_others: "Outros"
+      btn_unsubscribe: "Remover de Atualizações"
+      btn_subscribe: "Inscrever em Atualizações"
+      btn_notify: "Notificar"
+      # default input text
+      enter_an_email: "Insira um email.."
+      description: "Enviar atualização de discussões para qualquer endereço de email."
+
+email: 
+  # These must come from the mail client
+  forward_header: "Começo da mensagem encaminhada"
+  forward_from_header: "Mensagem encaminhada por"
+  original_header: "Começo da mensagem original"
+  end_forward_header: "Fim da mensagem encaminhada"
+  end_original_header: "Fim da mensagem original"
+  from: "De"
+  subject: "Assunto"
+  sent: "Enviado"
+  to: "Para"
+  fwd: 
+    - "Enc"
+    - "En"
+  # On <date> <user@email> wrote:
+  # Le <date> <user> a écrit:
+  # Am <date> <user> schrieb:
+  date_header_on: "Em"
+  date_header_wrote: "escreveu"
+  # For display
+  via_forwarded_email: "email encaminhado"
+  no_subject: "(sem assunto)"
+
+faqs:
+  index:
+    title: "Base de conhecimento
+    description: 
+      one: "%{count} artigo na seção %{section} em nossa Base de Conhecimento."
+      other: "%{count} artigos na seção %{section} em nossa Base de Conhecimento."
+    label_first_published: "Primeira publicação"
+    label_updated: "Atualizado"
+    faq_sections: "Seções da base de conhecimento"
+    other_faq_sections: "Não está encontrando o que precisa? Confira outras das nossas seções:"
+    faqs_feed: "Artigos da Base de Conhecimento"
+  search:
+    title: "Procurar na Base de Conhecimento"
+    no_results: "Nenhum resultado"
+    no_results_description: "Oops! Parace que não foi encontrado resultado algum para sua busca. Tentar novamente?"
+  sections:
+    search_instructions: "Procure por palavras-chaves (formatação, conta, e-mail) ou digite sua dúvida (Estou com problema na tela de login)"
+    label_recent_articles: "Artigos recentes"
+    title: "Base de Conhecimento"
+    # widget
+    textfield: "Digite aqui para filtrar os artigos.."
+    more: "Mais &rarr;"
+  show:
+    view_all_more_faqs:
+      one: "Ver todos os artigos (mais %{count})"
+      other: "Ver todos os artigos (mais %{count})"
+    view_all_faqs:
+      one: "Ver seção"
+      other: "Ver todos os %{count} artigos"
+    labels:
+      edit: "Editar este artigo"
+      last_updated: "Última atualização"View all (15 more) articles
+heartbeat_mailer:
+  questions: "Dúvidas?"
+invitation_mailer:
+  notification:
+    invitation_header: "Você foi convidado para o suporte %{site}"
+    invitation_header_user: "Você foi convidado para o suporte %{site} por %{inviter}."
+    with_company: "Você será adicionado a empresa %{name} e poderá ver todas as discussões privadas, criadas por outros membros da empresa."
+    confirm_link: "Você pode confirmar o convite acessando o link abaixo:"
+    signup_information: "Você poderá criar um novo perfil de usuário para o suporte de %{site} ou escolher um existente para este convite."
+members:
+  invite:
+    page_title: "Você foi convidade para o suporte de %{site}."
+    description_invited: "Você foi convidado por %{user} para se tornar membro do suporte de %{site}"  
+    description_supporter: "Você foi convidade para se tornar membro do time de suporte de %{site}"
+    logged_in: "Eu já estou logado."
+    login_form:
+      link: "Eu tenho uma conta neste site ou um OpenID"
+      description: "Fazer login na sua conta e aceitar este convite"
+    createaccount_form:
+      link: "Eu preciso criar uma nova conta"
+      description: "Criar uma nova conta e aceitar este convite"
+    accept: "Aceitar este convite"
+    existing_account: "Fazer login em uma conta existente do Tender"
+    create_new: "Criar uma nova conta"
+    change_option:
+      link: "Escolha uma opçao diferente &rarr;"
+      description: "Eu mudei de idéia"
+    welcome: "Bem vindo ao site do suporte de %{site}."
+notification:
+  confirm_unsubscribe:
+    description: "Você tem certeza que deseja desinscrever o e-mail %{email} de todos os e-mail enviados por %{site}?"
+    btn_confirm: "Sim, me desinscreva de TODOS os e-mails"
+  unsubscribe_completed:
+    description: "Você se desinscreveu de todos os e-mail de %{site}."
+    confirmation_email: "A confirmação será enviada para %{email}"
+  unsubscribe_failed:
+    title: "Desculpe, o link que você acessou para se desinscrever está desatualizado."
+    hint: "Você ainda pode mudar as configurações de notificação:"
+    link: "editar seu perfil &rarr;"
+notifications:
+  title: "Notificação por e-mail"
+  description: "Estes usuários serão notificados por e-mail de todas as novas discussões públicas desta categoria."
+  label_user: "Usuário"
+  label_profile: "Perfil"
+  label_state: "Estado"
+  user_state_user: "usuário"
+  user_state_disabled: "disabilitado"
+  user_state_support: "suporte"
+  user_state_spammer: "spammer"
+  btn_remove_all_subscriptions: "Remover *Todas* inscrições"
+  btn_remove_selected_subscriptions: "Remover as inscrições selecionadas"
+  note: "Não há usuários inscritos nesta categoria."
+  select_category: "Selecione uma categoria para modificar quais usuários receberão e-mail sobre as atualizações:" 
+  confirm_msg: "Você tem certeza que quer remover as configurações de inscrição? ISSO NÃO PODERÁ SER DESFEITO"
+search:
+  autosuggest:
+    title: "Algum de nossos artigos da nossa base de conhecimento lhe ajudou a resolver seu problema?"
+    was_resolved: "Sim! Meu problema foi resolvido"
+    not_resolved: "Não, continuar com minha discussão &rarr;"
+    continue_reading: "Continuar lendo&hellip;"
+    article_resolved: "Este artigo resolveu meu problema"
+  index:
+    title: "Discussões"
+    placeholder:
+      discussions: "Procurar discussões..."
+      knowledge_base: 'Procurar na base de conhecimento...'
+      users: 'Procurar usuários por nome ou e-mail...'
+    knowledge_base: "Base de conhecimento"
+    users: "Usuários"
+    entire_article: "Procurar no artigo inteiro"
+    title_only: "Procurar apenas por título"
+    include_kb: "Incluir KB"
+    scope:
+      label: "Escopo"
+      entire_discussion: "Procurar na discussão inteira"
+      title_only: "Procurar apenas por título"
+      author_email: "Procurar apenas por e-mail do autor"
+    section:
+      label: "Seção"
+      all: "Todas as seções"
+    categories: 
+      all: "Todas as categorias"
+    access:
+      public_and_private: "Público & Privado"
+      public_only: "Apenas Público"
+      private_only: "Apenas Privado"
+    recommended:
+      title: "Artigos recomendados da base de conhecimento"
+      published_on: "Artigo publicado em "
+    error: "Erro:"
+    error_msg: "Houve um erro ao processar sua requisição de busca"
+    no_search_found_user: "Nenhum usuário encontrado"
+    no_search_found_faq: "Nenhuma artigo encontrado"
+    no_search_found_discussion: "Nehuma discussão encontrada"
+    results_pagination: 
+      one: "Mostrando %{count_from}-%{count_until}"
+      other: "Mostrando %{count_from}-%{count_until} de %{count} resultados"
+    results_pagination_discussion:
+      one: "Mostrando 1 discussão"
+      other: "Mostrando %{count} discussões"
+    results_pagination_user:
+      one: "Mostrando 1 usuário"
+      other: "Mostrando %{count} usuários"
+    results_pagination_faq:
+      one: "Mostrando 1 artigo"
+      other: "Mostrando %{count} artigos"
+    standalone_search: "Interface padrão"
+    bulkedit_search:
+      title: "Editar interface em massa"
+      with_selected: "Com os selecionados:"
+sessions:
+  new:
+    title: "Entrar"
+    description: "Ou, você pode %{create_a_profile}."
+    create_a_profile: "criar um perfil"
+    cross_site_login: "Este site suporta logins de outros sites de suporte. Faça o login na sua conta em %{current_site} e você estará logado automaticamente no Suporte do Tender."
+    unclaimed_login: "Sua discussão, intitulada '%{discussion_title}', foi publicada com um e-mail que já existe neste site Tender. Por favor, faça o login abaixo para atribuir esta discussão ao seu perfil."
+    automatic_login: "*Atenção:* Você está automaticamente logado através do %{current_site}, como %{curent_email}."
+    automatic_logout: "Se você deseja sair, você precisa sair de %{current_site}."
+    whitelist_invite: "Você pode %{apply_new_account} se seu e-mail terminar com %{whitelist_emails}"
+    apply_new_account: "solicitar uma nova conta"
+    label_email: "Endereço do e-mail"
+    label_password: "Senha"
+    label_remember: "Lembrar de mim"
+    label_openid: "OpenID"
+    btn_login: "Login"
+    forgot: "Esqueceu sua senha?"
+    what_do_i_get: "O que eu ganho com um perfil?"
+    signup_description: "Ao registrar um perfil, você será capaz de personalizar quais discussões você quer ser notificado e como receberá suas atualizações."
+  show:
+    logged_from: "Logado de %{sessions} lugares. [limpar tudo]"
+    last_logged: "Último login feito de *%{session.ip}* no"
+site:
+  mail:
+    activation: |
+      Olá %{user},
+      
+      Sua conta foi ativada com sucesso.
+      
+      Deixo-nos saber se existe algo em que possamos fazer por você!
+      %{url}
+    
+    import: |
+      Olá,
+      
+      %{site} mudou seu suporte para %{host}!
+      
+      Gostaríamos de lhe pedir para que você confirme sua conta, acessando o link abaixo.
+      Isso nos ajudará a ter certeza que você é o dono deste e-mail (%{email}).
+      
+        %{url}
+      
+      Obrigado!
+      %{host}
+      
+    forgot_password: |
+      Parece que você esqueceu sua senha. Tudo bem, isso acontece até com os melhores!
+      Você gostaria de recriar sua senha? Acesse o link abaixo:
+      
+        %{url}
+      
+      Se você não solicitou a recriação de sua senha, apenas ignore este e-mail e sua senha permanecerá a mesma.
+      
+      Obrigado!
+      %{host}
+    signup: |
+      Olá,
+      
+      Obrigado por criar uma conta em %{host}!
+      
+      Gostaríamos de lhe pedir para que você confirme sua conta, acessando o link abaixo.
+      Isso nos ajudará a ter certeza que você é o dono do e-mail que você nos passou (%{email}).
+      
+        %{url}
+      
+      Obrigado!
+      %{host}
+      
+    token: |
+      Olá,
+      
+      Você socilicitou recentemente um token para a discussão privada '%{title}'.
+      
+      Por favor, use o link abaixo para ver a discussão.
+      
+      %{url}
+      
+      Obrigado!
+      %{host}
+      
+    unsubscribe: |
+      Olá %{user},
+      
+      Sua requisição para se desinscrever foi realizada com sucesso!
+      Você não irá mais receber e-mails de %{site}.
+      
+      Se você mudar de idéia, apenas atualize suas configurações de notificação: %{url}
+shared:
+  attach_file_size: "Você pode anexar arquivos de até 10MB"
+  comments_parsed_with_markdown: "Comentários são interpretados com %{markdown}"
+  adminbar:
+    trial: "Teste"
+    invalid: "Inválido"
+    title: "Status da conta"
+    days_left_in_trial: "Expira em %{current_trial} dias"
+    plan_limits: "Limites do plano "
+    support_staff: "suporte"
+    storage_space: "Espaço de armazenamento"
+    nav:
+      dashboard: "Dashboard"
+      discussions: "Discussões"
+      knowledge_base: "Base de conhecimento"
+      member_management: "Gerenciamento dos integrantes"
+      site_settings: "Configurações do site"
+      extras: "Extras"
+      plans_and_billing: "Planos &amp; cobrança"
+      reports: "Relatórios"
+    kb_feed_link: "Base de conhecimento (autenticado)"
+  legend:
+    title: "Legenda"
+      
+tickets:
+  # open / closed / etc from lighthouse
+  ticket_status_assigned: "Este ticket está %{state} e atribuído a %{user}"
+  ticket_status: "Este ticket está %{state}"
+  detach: "Tirar este ticket desta discussão"
+  delete: "apagar?"        
+
+users:
+  header:
+    edit_your_profile: "Editar seu perfil"
+    edit_a_profile: "Editar este usuário"
+    unread: "Não-lido"
+    all: "Todos"
+  apply:
+    sorry: "Desculpe, este endereço (%{email}) não serve para uma conta de usuário."
+    new_account:
+      title: "Solicitar uma conta"
+      description: "Por favor, coloque um endereço de e-mail. Se você tem um e-mail que termina em %{user_domain}, você pode criar uma conta."
+      checking_email: "Verificando e-mail..."
+  new_user_form:
+    title: "Crie seu perfil"
+    description: "Este perfil só funcionará para %{site}."
+    use_openid: "Se você quiser usar OpenID &ndash vá em frente e faça o %{log_in}."
+    attach_openid: "Se você já tem um perfil de usuário, você precisará efetuar o %{log_in} e atribuir sua url do OpenID: %{url}."
+    log_in: "login"
+    problem: "Houve um problema durante o envio de seu formulário"
+    private_site_signup: "O endereço do seu e-mail é válido para se registrar neste site. Por favor, escolha uma senha com pelo menos 6 letras para continuar."
+  actions_menu:
+    unsubscribe_link: "Desinscrever das atualizações por e-mail"
+  discussions_listing:
+    empty: "Nenhuma discussão ainda."
+    mark_read: "Marcar todos como lido"
+  signup_form:
+    email_address: "Endereço de e-mail"
+    password: "Senha"
+    password_confirm: "Confirme a Senha"
+    btn_signup: "Registrar"
+  edit:
+    title: "Gerenciar conta"
+    description:
+      current_user: "Realizar alterações na sua conta de suporte no Tender."
+      general: "Realizar alterações em uma conta de suporte no Tender."
+    account_form:
+      title: "Informações básicas da conta"
+      company: "Empresa"
+      btn_save_information: "Salvar informações"
+      openid: "OpenID (Opcional)"
+      label_set: "Definir OpenID"
+      label_reset: "Limpar OpenID"
+      btn_save_openid: "Salvar informações do OpenID"
+      email_preferences: "Preferências de e-mail"
+      notify_me: "Notifique-me..."
+      involved_with: "de discussões que estou envolvido"
+      starts_new_discussion: "quando alguém começar uma *nova* discussão"
+      all_discussions: "de todas as discussões na categoria %{category_name}."
+      add_to_queue: "quando as discussões forem adicionadas a fila %{queue_name}."
+      warning: "*Atenção* Provavelmente você queira apenas marcar a primeira opção (mudanças nas minhas discussões). Marcando essas outras opções, será enviado um e-mail sempre que houver alguma mudança nas discussões desta categoria. Se você não quer receber nenhum destes e-mails, desmarque todas as opções."
+      btn_update_prefs: "Preferências de atualização"
+      api_keys: "Chaves da API"
+      label_apikey: "Chave da API"
+      label_read_only: "Chave (apenas leitura) da API"
+      hint_apikey: "Use para leitura/escrita ao acesso à API JSON."
+      hint_read_only: "Usado em atom feeds autenticados."
+      btn_reset_key: "Redefinir chave da API"
+      btn_read_only_key: "Redefinir chave (apenas leitura) da API"
+
+    forgot_password:
+      confirmation_title: "Verificar seu email"
+      confirmation_description: "Para verificar sua identidade enviamos instruções para redefinir sua senha para %{email}"
+      title: "Esqueci minha senha"
+      description: "Insira seu email e enviaremos instruções para redefinir sua senha."
+    cross_site_login: "Se você já tem uma conta em %{site}, acesse %{cross_site_login_link}."
+    cross_site_login_link: "login"
+    btn_sendemail: "Enviar Email"
+    reset_password:
+      title: "Redefinir senha"
+      description: "Bem-vindo, %{user}"
+      btn_reset: "Redefinir"
+    owner: "Dono"
+    supporter: "Suporte"
+    you: "(Você)"
+    account_disabled: "CONTA INATIVA"
+    comment_results:
+      one: "1 comentário"
+      other: "%{count} comentários"
+    discussion_results:
+      one: "1 discussão"
+      other: "%{count} discussões"
+    result_since: "Resultados desde %{date}"
+    welcome:
+      title: "Obrigado por criar uma conta!"
+      description: "Agora que você criou uma conta, você pode usar o suporte do site com os botões abaixo."
+      cross_site_description: "Este suporte utiliza login automático. Para entrar, você precisa autenticar-se em %{custom_url}"
+      account_note: " Atenção: esta conta funciona apenas para %{current_host}, o site do suporte."
+      account_note_blank: "Ela *não* funcionará para %{current_website}"
+      solo_msg: "*Não esqueça de ativar sua conta!* Verifique em seu email a mensagem com o link de ativação. Ativar a conta desabilita captchas no envio de discussões."
+      btn_start_discussion: "Iniciar uma discussão"
+      btn_browse: "Navegar em discussões"
+      btn_knowledge_base: "Biblioteca"
+      open_issues: "Questões em aberto"
+      not_logged_msg:
+        title: "Por favor, ative sua conta."
+        resend_activation: "Não recebeu o email? %{send_again}"
+        description: "Obrigado por criar uma conta. Ainda resta um passo para completar. Por favor, clique no link do email que acabamos de enviar para verificar seu endereço de email e ativar sua conta."
+        send_again: "Enviar o link novamente"
+        already_confirmed: "Já confirmou?"
+      login_here: "Login"
+      create_account: "criar uma conta"
+          
+    sidebar:
+      privacy:
+        title: "Privacidade"
+        description: "Nós nunca mostramos seu email publicamente. Ele será usado apenas para notificação de atualizações."
+      custom_avatar:
+        title: "Quer um avatar personalizado?"
+        description: "Tender usará o avatar que você definiu para %{user_email} em "
+      notifications:
+        title: "Notificações"
+        description: "Deseja ser notificado de atualizações em discussões? Veja a seção de notificações"
+      public_profile:
+        title: "Ver seu perfil público"
+        description: "%{click_here} para ver seu perfil público."
+        click_here: "Clique aqui"
+      use_openid:
+        title: "E se eu usei OpenID?"
+        description: "Se você usou seu OpenID para criar uma conta, você precisará usar nosso %{login_form} para autenticar-se, e então and then find your password from your OpenID provider."
+        login_form: "Formulário de login"
+      register:
+        title: "Preciso ter uma conta?"
+        description: "Não! Esteja à vontade para %{start_new_discussion} anonimamente.  Enviaremos informções de como acessar suas discussões sem uma senha."
+        start_new_discussion: "iniciar uma discussão" 
+      information_used:
+        title: "Onde essa informação aparece?"
+        description: "Lembre-se que nós nunca exibiremos seu endereço de email publicamente."
+        #"Information changed here will affect your account on every Tender Support install."
+  watchers:
+    title: "Observadores: Pessoas recebendo notificações desta discussão"
+  concerns:
+    anon_user:
+      is_missing: "faltando"
+      already_exists: "já existe no sistema. Por favor autentique-se."
+  flash:
+    # sessions_controller.rb
+    login:
+      success: "Login efetuado com sucesso."
+      welcome: "Bem-vindo ao suporte de %{site}."
+      success_invitation: "Login efetuado com sucesso."
+      unverified: "Seu perfil não foi verificado. Por favor, clique no link que consta no email de ativação. Você pode %{unverified_link}."
+      unverified_link: "enviar o link novamente"
+      unverified_reminder: "Seu perfil continua %{unverified_reminder_link}"
+      unverified_reminder_link: "não verificado."
+      unclaimed: "Por favor verifique seu email com um link de ativação para acessar o site. Clique para %{unclaimed_link} novamente."
+      unclaimed_link: "enviar o link"
+      failed: "Não foi possível autenticar como '%{email}'."
+      failed_openid: "Desculpe, nenhum usuário com esta OpenID URL foi encontrado (%{url})."
+    logout:
+      success: "Você foi desconectado."
+      # application.rb
+    not_found: "A página que você procura não foi encontrada"
+    # assets_controller.rb
+    asset_delete: "%{filename} foi removido."
+    # autoresponders_controller.rb
+    autoresponders:
+      new: "Você precisa definir categorias para criar resposta automática."
+      success: "Resposta automatica criada."
+      update: "Resposta automatica atualizada."
+      delete: "Resposta automatica removida"
+    # categories_controller.rb
+    categories:
+      success: "Categoria criada."
+      update: "Categoria atualizada."
+      delete: "Categoria marcada para exclusão."
+    # comments_controller.rb
+    comments:
+      no_token: "Por favor tente enviar seu comentário novamente (você foi desconectado antes de enviar o comentário)."
+      success: "Seu comentário foi publicado."
+      moderation: "Aguarde um momento enquanto seu comentário é moderado."
+      restore: "Seu comentário foi restaurado. Aguarde um momento enquanto ele é processado."
+      update: "Seu comentário foi atualizado."
+      delete_spam: "O comentário foi marcado como spam."
+      delete_harsh: "O comentário foi removido permanentemente."
+      delete_delete: "O comentário foi removido."
+      deleted_delay: "Pode demorar alguns instantes até que o comentário seja removido."
+    # companies_controller.rb
+    companies:
+      success: "Empresa criada."
+      update: "Empresa atualizada."
+      delete: "Empresa removida."
+    # company_members_controller.rb
+    company_members:
+      no_valid: "Nenhum email válido foi informado."
+      success: "%{emails} foram convidados."
+      delete: "%{email} foi removido desta empresa."
+    # dashboard_controller.rb
+    dashboard:
+      bulk_success: 
+        one: "1 discussão foi atualizada. Pode demorar alguns instantes para que a operação seja concluída."
+        other: "%{count} discussões fora alteradas. Pode demorar alguns instantes para que a operação seja concluída."
+      bulk_error: "Ocorreu um erro na edição em massa. Certifique-se de selecionar discussões para modificar."
+      comments_error: "Nenhum comentário ou ação selecionada."
+      current_plan: "Este site agora está no plano %{plan}."
+      billing_update: "Suas configurações de cobrança foram alteradas."
+      billing_authorized: "Somente o adminidtrador %{owner} pode modificar informações de plano e cobrança."
+    # discussions_controller.rb
+    discussions:
+      no_token: "Por favor tente enviar a discussão novamente (você foi desconectado antes de enviar seu comentário)."
+      success: "Sua discussão foi criada."
+      moderation: "Esta discussão está aguardando moderação."
+      unclaimed: "Sua discussão foi criada. Aguarde alguns instantes enquanto ela é moderada."
+      unclaimed_moderation: "Aguarde uns instantes enquanto seu comentário é moderado."
+      delete: "A discussão foi removida."
+      closed: "A discussão foi encerrada."
+      reopen: "A discussão foi reaberta."
+      acknowledge: "A discussão foi marcada como lida."
+      change_category: "A discussão foi marcada para ser movida. Pode demorar uns instantes para que a operação seja concluída."
+      failed_change_category: "Falha ao trocar a categoria."
+    # extras_controller.rb
+    # faqs_controller.rb
+    faqs:
+      setup: "Você deve definir uma seção para escrever artigos"
+      no_token: "Por favor tente enviar o artigo novamente  -- você pode ter cookies inválidos ou ter sido desconectado em outra janela antes de enviar o formulário."
+      success: "Artigo criado."
+      update: "Artigo atualizado."
+      delete: "Artigo removido."
+    # filters_controller.rb
+     # Support only 
+    # mail_templates_controller.rb
+      # Support only
+    # notification_controller.rb
+    notification:
+      review_error: "O código de ativação fornecido estava expirado, por favor autentique-se."
+    # notifications_controller.rb
+    notifications:
+      delete_user_subscriptions: "Todas as inscrições de usuários desta categoria foram removidas."
+      delete_subscriptions: "Todas as inscrições desta categoria foram removidas."
+    # queues_controller.rb
+      # Support only
+    # reporting_controller.rb
+      # Support only
+    # search_controller.rb
+    search:
+      bulk_edit: "A edição em massa foi enfileirada."
+      bulk_edit_error: "Ocorreu um erro na edição em massa. Certifique-se de selecionar discussões para modificar."
+    # sections_controller.rb
+      # Support only
+    # settings_controller.rb
+      # Support only
+    # setup_controller.rb
+    # status_controller.rb
+      # No strings, admin only
+    # tickets_controller.rb
+      # No strings, admin-facing
+    # trackers_controller.rb
+    # users_controller.rb
+    users:
+      private_error: "Desculpe, o email (%{email}) não é válido para uma conta de usuário." 
+      private_invite: "Não foi possível criar sua conta. Você precisa ser convidado para este site restrito."
+      private_invite_confirm: "Bem-vindo ao suporte de %{site}."
+      private_invite_activate: "Bem-vindo ao suporte de %{site}. Enviaremos um email com o código de ativação. Clique no link para ativar sua conta."
+      private_setup_error: "Não conseguimos configurar esta conta. Veja os erros abaixo."
+      not_found: "Desculpe, não conseguimos encontrar este endereço de email no sistema. Por favor, tente novamente"
+      new_activation: "Enviamos um novo email de ativação. Por favor, clique no link para confirmar seu endereço de email."
+      activate_success: "Ativação concluída!"
+      activate_missing: "Falta o código de ativação. Por favor, use a URL do seu email."
+      activate_error: "Há um problema com o código de ativação fornecido. Por favor, confira o link informado."
+      forgot_password_success: "Enviamos um email para %{email} com informações sobre como redefinir sua senha"
+      forgot_password_error: "Não encontramos conta com o email %{email}"
+      no_user: "Nenhum usuário encontrado para este código de ativação. Informe seu email abaixo para requisitar um novo código."
+      reset_password_sucess: "Sua senha foi redefinida. Por favor autentique-se para continuar"
+      notifications_update_success: "Suas preferencias de email foram atualizadas."
+      disabled_delete: "O usuário %{user} foi desativado. Você pode adicioná-lo novamente enviando um convite por email."
+      supporter_delete: "O usuário %{user} foi removido da lista do suporte. Você pode adicioná-lo novamente através do perfil dele."
+      mark_spammer: "%{user} foi marcado como spammer. Pode demorar uns instantes para que seus comentários e discussões desapareçam."
+      openid_update: "Sua OpenID URL foi alterada para %{openid_url}."
+      openid_cleared: "Sua OpenID URL foi removida."
+      mark_as_read: "Todas as suas discussões foram marcadas como lidas"
+      self_remove_error: "Você não pode se remover."
+      profile_update_successful: "Perfil atualizado."
+    # watchers_controller.rb
+    # webhooks_controller.rb
+  # helpers
+  helpers:
+    # admin_helper
+    plan_match: "Esta é a parte do plano que corresponde ao seu uso atual"
+    trial_ends_on: "Seu trial acaba em %{trial_days} dias."
+    trial_expired: "Seu trial acabou."
+    billing_problems: "Há um problema com as suas informações de cobrança."
+    no_plan: "Você não escolheu um plano"
+    payment_due: "Este site tem um débito"
+    fix_this: "Corrigir."
+    please_notify: "Por favor notifique o administrador: %{owner_name}."
+    # dashboard_helper
+    your_plan: "Seu plano"
+    upgrade_link: "Upgrade"
+    downgrade_link: "Downgrade"
+    # form_helper
+    required_field: "Campo obrigatório"
+    # users_helper
+    stats_discussion_sentence:
+      one: "1 discussão iniciada; "
+      other: "%{count} discussões iniciadas; "
+    stats_reply_sentence:
+      one: "1 resposta"
+      other: "%{count} respostas"
+    # webhooks_helper
+    event_description:
+      discussion: "Discussão criada"
+      comment: "Discussão criada ou respondida para"
+      publish_faq: "Artigo da biblioteca é publicado pela primeira vez"
+      update_faq: "Artigo publicado na biblioteca é atualizado"
+      queue: "Discussão é adicionada a uma fila"
+      user: "Novo usuário cadastrado"
+  # mailers
+  mailers:
+    queue_notification: "'%{title}' foi enfileirada para '%{name}'"
+    heartbeat: "Intervalo de atualização para %{email}"
+    invitation_notification: "Você foi convidado para o Tender Support Site"
+    signup_notification: "Por favor ative sua conta"
+    import_notification: "Por favor ative sua nova conta para %{site}"
+    unsubscribe_notification: "Você foi removido"
+    activation: "Sua conta foi ativada!"
+    password_reset: "Requisitar alteração de senha"
+    token: "Seu token para '%{discussion}'"
+  # page titles
+  title:
+    invite: "Convite de membro do suporte"
+    your_profile: "Seu perfil"
+    signup: "Cadastre-se"
+    changelog: "Mudanças no Tender"
+    new_session: "Autenticar-se / Biblioteca"
+    notifications: "Membros / Admin"  
+    discussions: "Área de discussão"
+  # preview formatting popup
+  preview:
+    title: "Visualizar formação"
+    description: "Tender usa %{markdown_link} para formatação de textos."
+  # formatting help popup
+  formatting:
+    title: "Ajuda com formatação"
+    bold_and_italics:
+      title: "Negrito &amp; Itálico"
+      description: "Para usar text em negrito ou itálico use asterisco (*)"
+      bold: "<code>*um asterisco*</code> &ndash; produz texto em itálico: <em>asterisco simples</em>"
+      italic: "<code>**dois asteriscos**</code> &ndash; produces bold text: <strong>asterisco duplo</strong>"
+    links:
+      title: "Links"
+      description: "Para conectar com outro site use o seguinte:"
+      example: "<code>[Exemplo](http://exemplo.com)</code> &ndash; produz <a href=\"http://exemplo.com\">Exemplo</a>"
+    code_blocks:
+      title: "Blocos de código"
+      description: "Você pode incluir blocos de código envolvendo em acento grave (&grave;).  Exemplo: &grave; var test = true;&grave;  &ndash; produz <code>var test = true;</code>.  Você também pode incluir blocos de código indentando com pelo menos 4 espaços."
+  
